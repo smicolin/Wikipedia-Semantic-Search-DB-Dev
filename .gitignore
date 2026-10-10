@@ -1,0 +1,14 @@
+# Virtual Environment
+.venv/
+
+# Data directories
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
