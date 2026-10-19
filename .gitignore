@@ -1,9 +1,6 @@
 # Virtual Environment
 .venv/
 
-# Data directories
-data/*
-
 # Python cache & artifacts
 __pycache__/
 *.pyc
