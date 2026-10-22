@@ -5,7 +5,8 @@ from pathlib import Path
 
 ### Goal: we need to grab an article and then clean its text, making sure not to bring in sources or other things that can dilute our semantic meaning
 
-USER_AGENT = 'Wikipedia Semantic Search (colin.smith11@icloud.com)'
+YOUR_EMAIL = 'redacted@example.com' # Ensure you change this if running ingest again
+USER_AGENT = 'Wikipedia Semantic Search (YOUR_EMAIL)'
 wiki = wikipediaapi.Wikipedia(USER_AGENT, language='en', extract_format=wikipediaapi.ExtractFormat.WIKI)
 
 SKIP_SECTIONS = [

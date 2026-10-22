@@ -1,4 +1,4 @@
-# Wikipedia Semantic Article Search
+# Wikipedia Semantic Article Search (In Progress)
 
 ### Purpose
 
